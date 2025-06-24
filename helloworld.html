@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #login_page {
+        background-color: beige;
+        width: 250px;
+        margin: 50px auto; /* Top/Bottom margin 50px, auto centers horizontally */
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      button {
+        padding: 8px 12px;
+        background-color: #a2eda4;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        
+        
+      }
+      body {
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login_page">
+      <form>
+        <label style="color: rgb(30, 24, 195)">enter your name:</label>
+
+        <input id="namie" style="width: 75px" type="text" />
+        <br />
+        <br />
+        <label style="color: rgb(30, 24, 195)">enter your email:</label>
+
+        <input id="mail" style="width: 75px" type="email" /><br /><br />
+        <button type="button" onclick="show()">Save name</button>
+      </form>
+    </div>
+
+    <script src="./learn.js"></script>
+  </body>
+</html>
